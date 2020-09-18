@@ -12,7 +12,7 @@ os.system("clear")
 #hm.add_argument("-v","--version" , help = "For check version",dest = "version")
 #arg = hm.parse_args()
 def banner():
-    os.system("bash Banner.sh")
+    os.system("bash banner.py")
 def PBF(banner):
     banner()
     #Thare user give info of victim and program send it on a file.
